@@ -1,4 +1,5 @@
 (function (root) {
+    'use strict';
     var AudioContext = window.AudioContext || window.webkitAudioContext;
     var ctx = new AudioContext();
 
@@ -28,10 +29,10 @@
 
     Note.prototype.start = function () {
         this.gainNode.gain.value = 0.3
-    }
+    };
 
     Note.prototype.stop = function () {
         this.gainNode.gain.value = 0
-    }
+    };
 })(this);
 

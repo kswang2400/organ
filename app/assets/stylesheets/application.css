@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+.note-key {
+  border: solid black 1px;
+  float: left;
+  height: 100px;
+  width: 50px;
+}
+
+.pressed {
+  background-color: black;
+}
